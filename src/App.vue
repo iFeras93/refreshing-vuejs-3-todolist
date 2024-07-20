@@ -1,7 +1,10 @@
 <script setup>
 import MainLayout from "./components/MainLayout.vue";
+import TodoListCard from "./components/TodoListCard.vue";
 </script>
 
 <template>
-  <MainLayout> content here </MainLayout>
+  <MainLayout>
+    <TodoListCard cardTitle="Todos" />
+  </MainLayout>
 </template>
